@@ -36,7 +36,7 @@ jobs:
         path: target/deploy/genomics-qc.zip
     - name: Commit documentation changes
       run: |
-        git clone git@github.com:dfornika/genomics-qc-site-demo.git --branch gh-pages --single-branch gh-pages
+        git clone https://github.com/dfornika/genomics-qc-site-demo.git --branch gh-pages --single-branch gh-pages
         cp -r target/deploy/genomics-qc/* gh-pages/
         cd gh-pages
         touch .nojekyll
