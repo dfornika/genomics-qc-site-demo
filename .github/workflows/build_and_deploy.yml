@@ -29,7 +29,7 @@ jobs:
     - name: Build site
       run: |
         ./scripts/build.sh
-	./scripts/create-deployment.sh
+        ./scripts/create-deployment.sh
     - uses: actions/upload-artifact@v1
       with:
         name: site
