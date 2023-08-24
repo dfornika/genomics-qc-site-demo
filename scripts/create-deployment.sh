@@ -9,5 +9,5 @@ cp -r resources/public/images target/deploy/genomics-qc
 cp target/public/cljs-out/prod/main_bundle.js target/deploy/genomics-qc/js/main.js
 cp resources/public/index_prod.html target/deploy/genomics-qc/index.html
 pushd target/deploy > /dev/null
-tar -czf genomics-qc.tar.gz genomics-qc
+zip genomics-qc genomics-qc/*
 popd > /dev/null

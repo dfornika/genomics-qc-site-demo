@@ -33,7 +33,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: site
-        path: target/deploy/genomic-qc.tar.gz
+        path: target/deploy/genomics-qc.zip
     - name: Commit documentation changes
       run: |
         git clone https://github.com/dfornika/genomics-qc-site-demo.git --branch gh-pages --single-branch gh-pages
