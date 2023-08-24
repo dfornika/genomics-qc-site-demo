@@ -1,0 +1,53 @@
+name: "Build & Deploy"
+on: 
+  push:
+     branches:
+       - main
+  workflow_dispatch:
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Prepare java
+      uses: actions/setup-java@v3
+      with:
+        distribution: 'temurin'
+        java-version: '11'
+    - name: Install clojure tools
+      uses: DeLaGuardo/setup-clojure@11.0
+      with:
+          cli: latest
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 'lts/*'
+    - name: Install npm dependencies 
+      run: |
+        npm install
+    - name: Build site
+      run: |
+        ./scripts/build.sh
+	./scripts/create-deployment.sh
+    - uses: actions/upload-artifact@v1
+      with:
+        name: site
+        path: target/deploy/genomic-qc.tar.gz
+    - name: Commit documentation changes
+      run: |
+        git clone https://github.com/dfornika/genomics-qc-site-demo.git --branch gh-pages --single-branch gh-pages
+        cp -r target/deploy/genomic-qc/* gh-pages/
+        cd gh-pages
+        touch .nojekyll
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Update" -a || true
+        # The above command will fail if no changes were present, so we ignore
+        # that.
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        branch: gh-pages
+        directory: gh-pages
+        github_token: ${{ secrets.GITHUB_TOKEN }}

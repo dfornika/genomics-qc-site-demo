@@ -5,6 +5,8 @@
         cljs-http/cljs-http {:mvn/version "0.1.46"}
         reagent/reagent {:mvn/version "1.2.0"
                          :exclusions [cljsjs/react cljsjs/react-dom]}}
- :aliases {:dev {:extra-paths ["src/dev" "target"]
-                 :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.18"}}
+ :aliases {:dev {:extra-paths ["src/dev"]}
+	   :fig {:extra-paths ["target"]
+	         :extra-deps {com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
+	                      com.bhauman/figwheel-main {:mvn/version "0.2.18"}}
                  :main-opts ["-m" "figwheel.main"]}}}
