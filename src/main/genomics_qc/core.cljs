@@ -1,4 +1,4 @@
-(ns genomics-qc.core
+(ns ^:figwheel-hooks genomics-qc.core
   (:require-macros [cljs.core.async.macros :refer [go]])
   (:require [reagent.core :as r]
             [reagent.dom :as rdom]
@@ -116,15 +116,18 @@
                    :gap "4px"}}
      [library-sequence-qc-table]]]])
 
-(defn init []
-  (load-sequencing-runs)
+(defn render []
   (rdom/render [app] (js/document.getElementById "app")))
 
-(defn ^:dev/after-load re-render
+(defn ^:after-load re-render
   []
   ;; The `:dev/after-load` metadata causes this function to be called
   ;; after shadow-cljs hot-reloads code.
   ;; This function is called implicitly by its annotation.
-  (init))
+  (render))
 
-(set! (.-onload js/window) init)
+(defn main []
+  (load-sequencing-runs)
+  (render))
+
+(set! (.-onload js/window) main)
