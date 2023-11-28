@@ -1,4 +1,5 @@
 ^{:css-dirs ["resources/public/css"]
   :auto-bundle :webpack}
 {:main genomics-qc.core
- :optimizations :simple}
+ :optimizations :simple
+ :open-url false}
