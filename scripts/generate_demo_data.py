@@ -123,7 +123,7 @@ def generate_libraries(projects, instrument_type, last_library_num=1):
         num_libs_to_generate = 384
 
     libraries = []
-    run_mean_q30 = random.randint(80, 100)
+    run_mean_q30 = random.randint(80, 92)
     for i in range(0, num_libs_to_generate):
         last_library_num += 1
         library_id = f"S{last_library_num:05d}"

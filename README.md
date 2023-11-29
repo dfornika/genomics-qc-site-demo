@@ -13,6 +13,13 @@ The 'Node Package Manager' ([NPM](https://www.npmjs.com/)) is required for insta
 
 After cloning this repository, run `npm install` from the top-level of the repo to install the JavaScript dependencies into the `node_modules` directory.
 
+### Generate demo data
+A helper script is provided for generating datasets to use with the site. Run:
+
+```
+./scripts/generate_demo_data.sh
+```
+
 ### Emacs - CIDER
 [CIDER](https://cider.mx/) is a clojure(script) development environment for [Emacs](https://www.gnu.org/software/emacs/). To install CIDER, first add the [MELPA](https://melpa.org/#/getting-started) package archive to your Emacs installation. Then install CIDER as follows:
 
