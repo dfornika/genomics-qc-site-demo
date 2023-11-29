@@ -11,15 +11,18 @@
 (def app-version "v0.1.0")
 
 (defn get-selected-rows
-  ""
+  "Given an event e, return the data from the selected rows."
   [e]
-  (map #(js->clj (.-data %) :keywordize-keys true)
-       (-> e
-           .-api
-           .getSelectedNodes)))
+  (let [selected-nodes (-> e
+                           .-api
+                           .getSelectedNodes)
+        get-node-data #(js->clj (.-data %) :keywordize-keys true)]
+    (js/console.log e)
+    (map get-node-data selected-nodes)))
+
 
 (defn load-sequencing-runs
-  ""
+  "Pull list of sequencing runs from the server and add it to the db."
   []
   (go
     (let [response (<! (http/get "data/sequencing-runs.json" {:with-credentials? false}))]
@@ -27,7 +30,8 @@
 
 
 (defn load-library-qc
-  ""
+  "Given a run-id, pull the library QC data for that run from the server.
+   If the status code on the response is 200 (OK) then add it to the db."
   [run-id]
   (go
     (let [response (<! (http/get (str "data/library-qc/" run-id "-library-qc.json") {:with-credentials? false}))]
@@ -36,15 +40,19 @@
 
 
 (defn sequencing-run-selected
-  ""
+  "Given an event e, get the ID of the selected run. Use that ID
+   to pull the library-qc data from the server, and update the 
+   :selected-sequencing-run-id in the db"
   [e]
-  (let [currently-selected-run-id (:sequencing_run_id (first (get-selected-rows e)))]
+  (let [selected-rows (get-selected-rows e)
+        selected-row (first selected-rows)
+        currently-selected-run-id (:sequencing_run_id selected-row)]
       (load-library-qc currently-selected-run-id)
       (swap! db assoc-in [:selected-sequencing-run-id] currently-selected-run-id)))
 
 
 (defn header
-  ""
+  "Header component."
   []
   [:header {:style {:display "grid"
                     :grid-template-columns "repeat(2, 1fr)"
@@ -53,13 +61,13 @@
    [:div {:style {:display "grid"
                   :grid-template-columns "repeat(2, 1fr)"
                   :align-items "center"}}
-    [:h1 {:style {:font-family "Arial" :color "#004a87" :margin "0px"}} "Genomics QC"][:p {:style {:font-family "Arial" :color "grey" :justify-self "start"}} app-version]]
+    [:h1 {:style {:font-family "Arial" :color "#004a87" :margin "0px"}} "Genomics QC"] [:p {:style {:font-family "Arial" :color "grey" :justify-self "start"}} app-version]]
    [:div {:style {:display "grid" :align-self "center" :justify-self "end"}}
     [:img {:src "images/logo.svg" :height "48px"}]]])
 
 
 (defn sequencing-runs-table
-  ""
+  "Sequencing runs table component."
   []
   (let [sequencing-runs (:sequencing-runs @db)
         row-data sequencing-runs]
@@ -74,8 +82,9 @@
        :onSelectionChanged sequencing-run-selected}
       [:> ag-grid/AgGridColumn {:field "sequencing_run_id" :headerName "Sequencing Run ID" :minWidth 200 :resizable true :filter "agTextColumnFilter" :sortable true :checkboxSelection true :sort "desc" :floatingFilter true} ]]]))
 
+
 (defn library-sequence-qc-table
-  ""
+  "Library sequence QC table component."
   []
   (let [selected-sequencing-run-id (:selected-sequencing-run-id @db)
         selected-sequencing-run-library-qc (get-in @db [:library-qc selected-sequencing-run-id])
@@ -100,7 +109,7 @@
       [:> ag-grid/AgGridColumn {:field "estimated_depth" :maxWidth 172 :headerName "Est. Depth Coverage" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]]]))
 
 (defn app
-  ""
+  "Complete app component. Consists of a header and two tables."
   []
   [:div {:style {:display "grid"
                  :grid-template-columns "1fr"
@@ -122,23 +131,27 @@
                    :gap "4px"}}
      [library-sequence-qc-table]]]])
 
+
 (defn render
-  ""
+  "Render the app component inside the 'app' div."
   []
   (rdom/render [app] (js/document.getElementById "app")))
 
+
 (defn ^:after-load re-render
-  ""
+  "Re-render the site when the source code is updated."
   []
   ;; The `:dev/after-load` metadata causes this function to be called
   ;; after shadow-cljs hot-reloads code.
   ;; This function is called implicitly by its annotation.
   (render))
 
+
 (defn main
-  ""
+  "Main entrypoint."
   []
   (load-sequencing-runs)
   (render))
+
 
 (set! (.-onload js/window) main)
