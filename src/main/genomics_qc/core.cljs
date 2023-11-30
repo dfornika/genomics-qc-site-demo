@@ -17,7 +17,6 @@
                            .-api
                            .getSelectedNodes)
         get-node-data #(js->clj (.-data %) :keywordize-keys true)]
-    (js/console.log e)
     (map get-node-data selected-nodes)))
 
 
