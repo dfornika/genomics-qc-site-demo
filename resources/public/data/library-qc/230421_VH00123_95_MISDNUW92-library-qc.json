@@ -1,0 +1,3458 @@
+[
+    {
+        "library_id": "S16514",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 436128169,
+        "percent_bases_above_q30": 85.24,
+        "estimated_depth": 99.12
+    },
+    {
+        "library_id": "S16515",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 690071884,
+        "percent_bases_above_q30": 86.12,
+        "estimated_depth": 116.96
+    },
+    {
+        "library_id": "S16516",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 534682420,
+        "percent_bases_above_q30": 86.16,
+        "estimated_depth": 95.48
+    },
+    {
+        "library_id": "S16517",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 287397214,
+        "percent_bases_above_q30": 85.42,
+        "estimated_depth": 65.32
+    },
+    {
+        "library_id": "S16518",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 2876251,
+        "percent_bases_above_q30": 84.96,
+        "estimated_depth": 211.49
+    },
+    {
+        "library_id": "S16519",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 2341021,
+        "percent_bases_above_q30": 85.15,
+        "estimated_depth": 78.3
+    },
+    {
+        "library_id": "S16520",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 311212128,
+        "percent_bases_above_q30": 86.66,
+        "estimated_depth": 70.73
+    },
+    {
+        "library_id": "S16521",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 406680301,
+        "percent_bases_above_q30": 85.98,
+        "estimated_depth": 81.34
+    },
+    {
+        "library_id": "S16522",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 442605387,
+        "percent_bases_above_q30": 86.05,
+        "estimated_depth": 100.59
+    },
+    {
+        "library_id": "S16523",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 311630231,
+        "percent_bases_above_q30": 85.44,
+        "estimated_depth": 62.33
+    },
+    {
+        "library_id": "S16524",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 318154948,
+        "percent_bases_above_q30": 85.52,
+        "estimated_depth": 72.31
+    },
+    {
+        "library_id": "S16525",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 662697682,
+        "percent_bases_above_q30": 86.1,
+        "estimated_depth": 150.61
+    },
+    {
+        "library_id": "S16526",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 4165720,
+        "percent_bases_above_q30": 85.27,
+        "estimated_depth": 433.93
+    },
+    {
+        "library_id": "S16527",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 414565258,
+        "percent_bases_above_q30": 83.32,
+        "estimated_depth": 74.03
+    },
+    {
+        "library_id": "S16528",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 2080366,
+        "percent_bases_above_q30": 85.02,
+        "estimated_depth": 152.97
+    },
+    {
+        "library_id": "S16529",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 457493542,
+        "percent_bases_above_q30": 86.95,
+        "estimated_depth": 103.98
+    },
+    {
+        "library_id": "S16530",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 352502598,
+        "percent_bases_above_q30": 86.17,
+        "estimated_depth": 80.11
+    },
+    {
+        "library_id": "S16531",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 657619292,
+        "percent_bases_above_q30": 86.89,
+        "estimated_depth": 149.46
+    },
+    {
+        "library_id": "S16532",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 651561310,
+        "percent_bases_above_q30": 85.26,
+        "estimated_depth": 127.76
+    },
+    {
+        "library_id": "S16533",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 4306635,
+        "percent_bases_above_q30": 87.28,
+        "estimated_depth": 283.33
+    },
+    {
+        "library_id": "S16534",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 497047501,
+        "percent_bases_above_q30": 85.86,
+        "estimated_depth": 87.2
+    },
+    {
+        "library_id": "S16535",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 2455830,
+        "percent_bases_above_q30": 86.26,
+        "estimated_depth": 255.82
+    },
+    {
+        "library_id": "S16536",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 1441029,
+        "percent_bases_above_q30": 85.73,
+        "estimated_depth": 150.11
+    },
+    {
+        "library_id": "S16537",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 636285054,
+        "percent_bases_above_q30": 86.39,
+        "estimated_depth": 127.26
+    },
+    {
+        "library_id": "S16538",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 546668643,
+        "percent_bases_above_q30": 86.13,
+        "estimated_depth": 124.24
+    },
+    {
+        "library_id": "S16539",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 2945470,
+        "percent_bases_above_q30": 85.79,
+        "estimated_depth": 216.58
+    },
+    {
+        "library_id": "S16540",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 325860488,
+        "percent_bases_above_q30": 85.96,
+        "estimated_depth": 65.17
+    },
+    {
+        "library_id": "S16541",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 403881189,
+        "percent_bases_above_q30": 85.16,
+        "estimated_depth": 91.79
+    },
+    {
+        "library_id": "S16542",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 553329351,
+        "percent_bases_above_q30": 85.73,
+        "estimated_depth": 98.81
+    },
+    {
+        "library_id": "S16543",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 696228950,
+        "percent_bases_above_q30": 86.96,
+        "estimated_depth": 139.25
+    },
+    {
+        "library_id": "S16544",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 4665519,
+        "percent_bases_above_q30": 86.63,
+        "estimated_depth": 343.05
+    },
+    {
+        "library_id": "S16545",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 346823899,
+        "percent_bases_above_q30": 86.16,
+        "estimated_depth": 61.93
+    },
+    {
+        "library_id": "S16546",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 659278067,
+        "percent_bases_above_q30": 85.41,
+        "estimated_depth": 117.73
+    },
+    {
+        "library_id": "S16547",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 545733409,
+        "percent_bases_above_q30": 86.62,
+        "estimated_depth": 124.03
+    },
+    {
+        "library_id": "S16548",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 677188722,
+        "percent_bases_above_q30": 85.59,
+        "estimated_depth": 135.44
+    },
+    {
+        "library_id": "S16549",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 264214797,
+        "percent_bases_above_q30": 84.99,
+        "estimated_depth": 60.05
+    },
+    {
+        "library_id": "S16550",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 425646465,
+        "percent_bases_above_q30": 87.77,
+        "estimated_depth": 96.74
+    },
+    {
+        "library_id": "S16551",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 394847667,
+        "percent_bases_above_q30": 85.12,
+        "estimated_depth": 89.74
+    },
+    {
+        "library_id": "S16552",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 3739708,
+        "percent_bases_above_q30": 87.06,
+        "estimated_depth": 389.55
+    },
+    {
+        "library_id": "S16553",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 631992016,
+        "percent_bases_above_q30": 86.75,
+        "estimated_depth": 112.86
+    },
+    {
+        "library_id": "S16554",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 741285979,
+        "percent_bases_above_q30": 85.2,
+        "estimated_depth": 168.47
+    },
+    {
+        "library_id": "S16555",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 4877387,
+        "percent_bases_above_q30": 85.49,
+        "estimated_depth": 320.88
+    },
+    {
+        "library_id": "S16556",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 3572738,
+        "percent_bases_above_q30": 87.8,
+        "estimated_depth": 119.49
+    },
+    {
+        "library_id": "S16557",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 2525345,
+        "percent_bases_above_q30": 87.48,
+        "estimated_depth": 166.14
+    },
+    {
+        "library_id": "S16558",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 667174799,
+        "percent_bases_above_q30": 87.52,
+        "estimated_depth": 117.05
+    },
+    {
+        "library_id": "S16559",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 654547104,
+        "percent_bases_above_q30": 86.96,
+        "estimated_depth": 128.34
+    },
+    {
+        "library_id": "S16560",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 531293500,
+        "percent_bases_above_q30": 84.86,
+        "estimated_depth": 120.75
+    },
+    {
+        "library_id": "S16561",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 648612251,
+        "percent_bases_above_q30": 85.77,
+        "estimated_depth": 115.82
+    },
+    {
+        "library_id": "S16562",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 315107661,
+        "percent_bases_above_q30": 85.73,
+        "estimated_depth": 63.02
+    },
+    {
+        "library_id": "S16563",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 540427703,
+        "percent_bases_above_q30": 85.7,
+        "estimated_depth": 122.82
+    },
+    {
+        "library_id": "S16564",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 310583274,
+        "percent_bases_above_q30": 85.11,
+        "estimated_depth": 54.49
+    },
+    {
+        "library_id": "S16565",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 547434643,
+        "percent_bases_above_q30": 86.87,
+        "estimated_depth": 124.42
+    },
+    {
+        "library_id": "S16566",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 527421674,
+        "percent_bases_above_q30": 86.36,
+        "estimated_depth": 94.18
+    },
+    {
+        "library_id": "S16567",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 597881423,
+        "percent_bases_above_q30": 83.61,
+        "estimated_depth": 135.88
+    },
+    {
+        "library_id": "S16568",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 552789951,
+        "percent_bases_above_q30": 85.96,
+        "estimated_depth": 125.63
+    },
+    {
+        "library_id": "S16569",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 461339002,
+        "percent_bases_above_q30": 87.58,
+        "estimated_depth": 104.85
+    },
+    {
+        "library_id": "S16570",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 611413736,
+        "percent_bases_above_q30": 85.0,
+        "estimated_depth": 109.18
+    },
+    {
+        "library_id": "S16571",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 495495843,
+        "percent_bases_above_q30": 85.44,
+        "estimated_depth": 83.98
+    },
+    {
+        "library_id": "S16572",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 375290494,
+        "percent_bases_above_q30": 87.26,
+        "estimated_depth": 67.02
+    },
+    {
+        "library_id": "S16573",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 428497640,
+        "percent_bases_above_q30": 87.36,
+        "estimated_depth": 97.39
+    },
+    {
+        "library_id": "S16574",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 625732458,
+        "percent_bases_above_q30": 84.6,
+        "estimated_depth": 111.74
+    },
+    {
+        "library_id": "S16575",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 439693154,
+        "percent_bases_above_q30": 85.61,
+        "estimated_depth": 86.21
+    },
+    {
+        "library_id": "S16576",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 4013721,
+        "percent_bases_above_q30": 87.08,
+        "estimated_depth": 295.13
+    },
+    {
+        "library_id": "S16577",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 545279988,
+        "percent_bases_above_q30": 84.22,
+        "estimated_depth": 92.42
+    },
+    {
+        "library_id": "S16578",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 453810228,
+        "percent_bases_above_q30": 85.98,
+        "estimated_depth": 88.98
+    },
+    {
+        "library_id": "S16579",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 390612622,
+        "percent_bases_above_q30": 86.91,
+        "estimated_depth": 69.75
+    },
+    {
+        "library_id": "S16580",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 406189615,
+        "percent_bases_above_q30": 85.11,
+        "estimated_depth": 92.32
+    },
+    {
+        "library_id": "S16581",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 2704283,
+        "percent_bases_above_q30": 84.53,
+        "estimated_depth": 281.7
+    },
+    {
+        "library_id": "S16582",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 522732446,
+        "percent_bases_above_q30": 87.22,
+        "estimated_depth": 118.8
+    },
+    {
+        "library_id": "S16583",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 605996962,
+        "percent_bases_above_q30": 86.89,
+        "estimated_depth": 108.21
+    },
+    {
+        "library_id": "S16584",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 1307632,
+        "percent_bases_above_q30": 86.02,
+        "estimated_depth": 136.21
+    },
+    {
+        "library_id": "S16585",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 2069894,
+        "percent_bases_above_q30": 84.06,
+        "estimated_depth": 69.23
+    },
+    {
+        "library_id": "S16586",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 669929318,
+        "percent_bases_above_q30": 84.82,
+        "estimated_depth": 117.53
+    },
+    {
+        "library_id": "S16587",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 585888560,
+        "percent_bases_above_q30": 85.45,
+        "estimated_depth": 114.88
+    },
+    {
+        "library_id": "S16588",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 267574431,
+        "percent_bases_above_q30": 87.61,
+        "estimated_depth": 46.94
+    },
+    {
+        "library_id": "S16589",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 2525235,
+        "percent_bases_above_q30": 87.32,
+        "estimated_depth": 84.46
+    },
+    {
+        "library_id": "S16590",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 685164055,
+        "percent_bases_above_q30": 85.09,
+        "estimated_depth": 122.35
+    },
+    {
+        "library_id": "S16591",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 648403381,
+        "percent_bases_above_q30": 85.91,
+        "estimated_depth": 115.79
+    },
+    {
+        "library_id": "S16592",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 716270207,
+        "percent_bases_above_q30": 86.79,
+        "estimated_depth": 121.4
+    },
+    {
+        "library_id": "S16593",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 473174339,
+        "percent_bases_above_q30": 86.09,
+        "estimated_depth": 94.63
+    },
+    {
+        "library_id": "S16594",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 603751035,
+        "percent_bases_above_q30": 86.29,
+        "estimated_depth": 120.75
+    },
+    {
+        "library_id": "S16595",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 456280694,
+        "percent_bases_above_q30": 86.52,
+        "estimated_depth": 77.34
+    },
+    {
+        "library_id": "S16596",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 365060195,
+        "percent_bases_above_q30": 86.78,
+        "estimated_depth": 64.05
+    },
+    {
+        "library_id": "S16597",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 718559993,
+        "percent_bases_above_q30": 84.38,
+        "estimated_depth": 143.71
+    },
+    {
+        "library_id": "S16598",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 562687050,
+        "percent_bases_above_q30": 86.67,
+        "estimated_depth": 112.54
+    },
+    {
+        "library_id": "S16599",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 648856247,
+        "percent_bases_above_q30": 86.78,
+        "estimated_depth": 115.87
+    },
+    {
+        "library_id": "S16600",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 3116325,
+        "percent_bases_above_q30": 87.44,
+        "estimated_depth": 229.14
+    },
+    {
+        "library_id": "S16601",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 359706828,
+        "percent_bases_above_q30": 86.06,
+        "estimated_depth": 71.94
+    },
+    {
+        "library_id": "S16602",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 267168566,
+        "percent_bases_above_q30": 84.8,
+        "estimated_depth": 53.43
+    },
+    {
+        "library_id": "S16603",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 431081280,
+        "percent_bases_above_q30": 83.57,
+        "estimated_depth": 86.22
+    },
+    {
+        "library_id": "S16604",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 668919687,
+        "percent_bases_above_q30": 85.18,
+        "estimated_depth": 152.03
+    },
+    {
+        "library_id": "S16605",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 4486935,
+        "percent_bases_above_q30": 86.25,
+        "estimated_depth": 329.92
+    },
+    {
+        "library_id": "S16606",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 413046651,
+        "percent_bases_above_q30": 85.45,
+        "estimated_depth": 73.76
+    },
+    {
+        "library_id": "S16607",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 315143892,
+        "percent_bases_above_q30": 85.95,
+        "estimated_depth": 56.28
+    },
+    {
+        "library_id": "S16608",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 1865044,
+        "percent_bases_above_q30": 85.71,
+        "estimated_depth": 194.28
+    },
+    {
+        "library_id": "S16609",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 388489128,
+        "percent_bases_above_q30": 86.82,
+        "estimated_depth": 88.29
+    },
+    {
+        "library_id": "S16610",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 414503756,
+        "percent_bases_above_q30": 86.58,
+        "estimated_depth": 72.72
+    },
+    {
+        "library_id": "S16611",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 441931962,
+        "percent_bases_above_q30": 86.23,
+        "estimated_depth": 78.92
+    },
+    {
+        "library_id": "S16612",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 334227260,
+        "percent_bases_above_q30": 85.67,
+        "estimated_depth": 58.64
+    },
+    {
+        "library_id": "S16613",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 540000990,
+        "percent_bases_above_q30": 86.21,
+        "estimated_depth": 105.88
+    },
+    {
+        "library_id": "S16614",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 637603177,
+        "percent_bases_above_q30": 85.57,
+        "estimated_depth": 127.52
+    },
+    {
+        "library_id": "S16615",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 654623610,
+        "percent_bases_above_q30": 83.72,
+        "estimated_depth": 130.92
+    },
+    {
+        "library_id": "S16616",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 4429067,
+        "percent_bases_above_q30": 87.68,
+        "estimated_depth": 148.13
+    },
+    {
+        "library_id": "S16617",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 667049844,
+        "percent_bases_above_q30": 85.04,
+        "estimated_depth": 133.41
+    },
+    {
+        "library_id": "S16618",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 1881285,
+        "percent_bases_above_q30": 86.19,
+        "estimated_depth": 123.77
+    },
+    {
+        "library_id": "S16619",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 267017056,
+        "percent_bases_above_q30": 85.82,
+        "estimated_depth": 52.36
+    },
+    {
+        "library_id": "S16620",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 565756949,
+        "percent_bases_above_q30": 85.96,
+        "estimated_depth": 113.15
+    },
+    {
+        "library_id": "S16621",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 623874692,
+        "percent_bases_above_q30": 85.7,
+        "estimated_depth": 141.79
+    },
+    {
+        "library_id": "S16622",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 573146518,
+        "percent_bases_above_q30": 84.42,
+        "estimated_depth": 130.26
+    },
+    {
+        "library_id": "S16623",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 416520730,
+        "percent_bases_above_q30": 84.24,
+        "estimated_depth": 94.66
+    },
+    {
+        "library_id": "S16624",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 507721659,
+        "percent_bases_above_q30": 83.72,
+        "estimated_depth": 101.54
+    },
+    {
+        "library_id": "S16625",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 734437441,
+        "percent_bases_above_q30": 86.32,
+        "estimated_depth": 146.89
+    },
+    {
+        "library_id": "S16626",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 406072365,
+        "percent_bases_above_q30": 86.44,
+        "estimated_depth": 81.21
+    },
+    {
+        "library_id": "S16627",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 3355193,
+        "percent_bases_above_q30": 85.43,
+        "estimated_depth": 112.21
+    },
+    {
+        "library_id": "S16628",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 354674875,
+        "percent_bases_above_q30": 85.18,
+        "estimated_depth": 80.61
+    },
+    {
+        "library_id": "S16629",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 665769249,
+        "percent_bases_above_q30": 86.16,
+        "estimated_depth": 118.89
+    },
+    {
+        "library_id": "S16630",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 582050473,
+        "percent_bases_above_q30": 84.78,
+        "estimated_depth": 98.65
+    },
+    {
+        "library_id": "S16631",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 449223953,
+        "percent_bases_above_q30": 85.4,
+        "estimated_depth": 102.1
+    },
+    {
+        "library_id": "S16632",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 4621219,
+        "percent_bases_above_q30": 86.72,
+        "estimated_depth": 339.8
+    },
+    {
+        "library_id": "S16633",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 501020582,
+        "percent_bases_above_q30": 84.37,
+        "estimated_depth": 89.47
+    },
+    {
+        "library_id": "S16634",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 4932529,
+        "percent_bases_above_q30": 84.98,
+        "estimated_depth": 513.81
+    },
+    {
+        "library_id": "S16635",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 500391682,
+        "percent_bases_above_q30": 86.99,
+        "estimated_depth": 113.73
+    },
+    {
+        "library_id": "S16636",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 256281623,
+        "percent_bases_above_q30": 84.52,
+        "estimated_depth": 58.25
+    },
+    {
+        "library_id": "S16637",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 471220770,
+        "percent_bases_above_q30": 85.11,
+        "estimated_depth": 92.4
+    },
+    {
+        "library_id": "S16638",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 4219555,
+        "percent_bases_above_q30": 87.17,
+        "estimated_depth": 439.54
+    },
+    {
+        "library_id": "S16639",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 353904224,
+        "percent_bases_above_q30": 86.86,
+        "estimated_depth": 63.2
+    },
+    {
+        "library_id": "S16640",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 615947466,
+        "percent_bases_above_q30": 88.6,
+        "estimated_depth": 109.99
+    },
+    {
+        "library_id": "S16641",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 623112918,
+        "percent_bases_above_q30": 85.58,
+        "estimated_depth": 124.62
+    },
+    {
+        "library_id": "S16642",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 649691637,
+        "percent_bases_above_q30": 87.9,
+        "estimated_depth": 110.12
+    },
+    {
+        "library_id": "S16643",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 4045684,
+        "percent_bases_above_q30": 87.7,
+        "estimated_depth": 421.43
+    },
+    {
+        "library_id": "S16644",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 730602883,
+        "percent_bases_above_q30": 84.81,
+        "estimated_depth": 166.05
+    },
+    {
+        "library_id": "S16645",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 1787867,
+        "percent_bases_above_q30": 84.61,
+        "estimated_depth": 117.62
+    },
+    {
+        "library_id": "S16646",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 2863527,
+        "percent_bases_above_q30": 85.1,
+        "estimated_depth": 298.28
+    },
+    {
+        "library_id": "S16647",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 640598825,
+        "percent_bases_above_q30": 85.66,
+        "estimated_depth": 145.59
+    },
+    {
+        "library_id": "S16648",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 674141980,
+        "percent_bases_above_q30": 86.87,
+        "estimated_depth": 114.26
+    },
+    {
+        "library_id": "S16649",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 363627422,
+        "percent_bases_above_q30": 87.23,
+        "estimated_depth": 64.93
+    },
+    {
+        "library_id": "S16650",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 4900354,
+        "percent_bases_above_q30": 84.01,
+        "estimated_depth": 322.39
+    },
+    {
+        "library_id": "S16651",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 3458769,
+        "percent_bases_above_q30": 86.51,
+        "estimated_depth": 115.68
+    },
+    {
+        "library_id": "S16652",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 491623133,
+        "percent_bases_above_q30": 87.02,
+        "estimated_depth": 98.32
+    },
+    {
+        "library_id": "S16653",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 541475430,
+        "percent_bases_above_q30": 86.47,
+        "estimated_depth": 108.3
+    },
+    {
+        "library_id": "S16654",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 475632736,
+        "percent_bases_above_q30": 85.46,
+        "estimated_depth": 84.93
+    },
+    {
+        "library_id": "S16655",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 3968494,
+        "percent_bases_above_q30": 84.62,
+        "estimated_depth": 132.73
+    },
+    {
+        "library_id": "S16656",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 3254864,
+        "percent_bases_above_q30": 86.01,
+        "estimated_depth": 214.14
+    },
+    {
+        "library_id": "S16657",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 438045564,
+        "percent_bases_above_q30": 87.19,
+        "estimated_depth": 78.22
+    },
+    {
+        "library_id": "S16658",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 1623738,
+        "percent_bases_above_q30": 85.93,
+        "estimated_depth": 54.31
+    },
+    {
+        "library_id": "S16659",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 296892559,
+        "percent_bases_above_q30": 86.3,
+        "estimated_depth": 67.48
+    },
+    {
+        "library_id": "S16660",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 542284347,
+        "percent_bases_above_q30": 86.5,
+        "estimated_depth": 108.46
+    },
+    {
+        "library_id": "S16661",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 738559621,
+        "percent_bases_above_q30": 86.77,
+        "estimated_depth": 144.82
+    },
+    {
+        "library_id": "S16662",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 606267824,
+        "percent_bases_above_q30": 85.37,
+        "estimated_depth": 106.36
+    },
+    {
+        "library_id": "S16663",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 3490990,
+        "percent_bases_above_q30": 87.56,
+        "estimated_depth": 363.64
+    },
+    {
+        "library_id": "S16664",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 280376392,
+        "percent_bases_above_q30": 86.39,
+        "estimated_depth": 50.07
+    },
+    {
+        "library_id": "S16665",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 462726064,
+        "percent_bases_above_q30": 86.27,
+        "estimated_depth": 105.17
+    },
+    {
+        "library_id": "S16666",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 638617264,
+        "percent_bases_above_q30": 84.98,
+        "estimated_depth": 114.04
+    },
+    {
+        "library_id": "S16667",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 1072035,
+        "percent_bases_above_q30": 87.13,
+        "estimated_depth": 78.83
+    },
+    {
+        "library_id": "S16668",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 319938229,
+        "percent_bases_above_q30": 85.85,
+        "estimated_depth": 72.71
+    },
+    {
+        "library_id": "S16669",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 511568553,
+        "percent_bases_above_q30": 84.95,
+        "estimated_depth": 102.31
+    },
+    {
+        "library_id": "S16670",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 665151002,
+        "percent_bases_above_q30": 86.52,
+        "estimated_depth": 130.42
+    },
+    {
+        "library_id": "S16671",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 655018085,
+        "percent_bases_above_q30": 86.41,
+        "estimated_depth": 148.87
+    },
+    {
+        "library_id": "S16672",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 587865871,
+        "percent_bases_above_q30": 85.44,
+        "estimated_depth": 133.61
+    },
+    {
+        "library_id": "S16673",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 509680458,
+        "percent_bases_above_q30": 85.55,
+        "estimated_depth": 99.94
+    },
+    {
+        "library_id": "S16674",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 498969079,
+        "percent_bases_above_q30": 87.08,
+        "estimated_depth": 113.4
+    },
+    {
+        "library_id": "S16675",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 394959297,
+        "percent_bases_above_q30": 88.44,
+        "estimated_depth": 78.99
+    },
+    {
+        "library_id": "S16676",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 342242961,
+        "percent_bases_above_q30": 88.82,
+        "estimated_depth": 77.78
+    },
+    {
+        "library_id": "S16677",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 325546425,
+        "percent_bases_above_q30": 86.88,
+        "estimated_depth": 65.11
+    },
+    {
+        "library_id": "S16678",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 1341671,
+        "percent_bases_above_q30": 85.42,
+        "estimated_depth": 44.87
+    },
+    {
+        "library_id": "S16679",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 348149693,
+        "percent_bases_above_q30": 86.94,
+        "estimated_depth": 59.01
+    },
+    {
+        "library_id": "S16680",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 364049737,
+        "percent_bases_above_q30": 86.29,
+        "estimated_depth": 72.81
+    },
+    {
+        "library_id": "S16681",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 710911723,
+        "percent_bases_above_q30": 86.48,
+        "estimated_depth": 142.18
+    },
+    {
+        "library_id": "S16682",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 410637656,
+        "percent_bases_above_q30": 86.69,
+        "estimated_depth": 93.33
+    },
+    {
+        "library_id": "S16683",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 638456645,
+        "percent_bases_above_q30": 86.32,
+        "estimated_depth": 145.1
+    },
+    {
+        "library_id": "S16684",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 4372308,
+        "percent_bases_above_q30": 87.25,
+        "estimated_depth": 146.23
+    },
+    {
+        "library_id": "S16685",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 3548582,
+        "percent_bases_above_q30": 86.26,
+        "estimated_depth": 260.93
+    },
+    {
+        "library_id": "S16686",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 4003055,
+        "percent_bases_above_q30": 85.43,
+        "estimated_depth": 133.88
+    },
+    {
+        "library_id": "S16687",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 385655325,
+        "percent_bases_above_q30": 85.69,
+        "estimated_depth": 68.87
+    },
+    {
+        "library_id": "S16688",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 328630474,
+        "percent_bases_above_q30": 85.37,
+        "estimated_depth": 65.73
+    },
+    {
+        "library_id": "S16689",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 3265102,
+        "percent_bases_above_q30": 85.84,
+        "estimated_depth": 109.2
+    },
+    {
+        "library_id": "S16690",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 3571124,
+        "percent_bases_above_q30": 85.71,
+        "estimated_depth": 262.58
+    },
+    {
+        "library_id": "S16691",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 2754638,
+        "percent_bases_above_q30": 86.51,
+        "estimated_depth": 92.13
+    },
+    {
+        "library_id": "S16692",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 4178815,
+        "percent_bases_above_q30": 84.8,
+        "estimated_depth": 435.29
+    },
+    {
+        "library_id": "S16693",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 358138011,
+        "percent_bases_above_q30": 86.89,
+        "estimated_depth": 63.95
+    },
+    {
+        "library_id": "S16694",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 511374801,
+        "percent_bases_above_q30": 86.84,
+        "estimated_depth": 91.32
+    },
+    {
+        "library_id": "S16695",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 3495602,
+        "percent_bases_above_q30": 85.96,
+        "estimated_depth": 229.97
+    },
+    {
+        "library_id": "S16696",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 3347560,
+        "percent_bases_above_q30": 86.91,
+        "estimated_depth": 348.7
+    },
+    {
+        "library_id": "S16697",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 1371006,
+        "percent_bases_above_q30": 85.4,
+        "estimated_depth": 90.2
+    },
+    {
+        "library_id": "S16698",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 639583415,
+        "percent_bases_above_q30": 86.46,
+        "estimated_depth": 127.92
+    },
+    {
+        "library_id": "S16699",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 488587252,
+        "percent_bases_above_q30": 86.52,
+        "estimated_depth": 111.04
+    },
+    {
+        "library_id": "S16700",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 537989308,
+        "percent_bases_above_q30": 85.61,
+        "estimated_depth": 105.49
+    },
+    {
+        "library_id": "S16701",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 268601844,
+        "percent_bases_above_q30": 86.47,
+        "estimated_depth": 47.96
+    },
+    {
+        "library_id": "S16702",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 618675668,
+        "percent_bases_above_q30": 85.06,
+        "estimated_depth": 110.48
+    },
+    {
+        "library_id": "S16703",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 621859304,
+        "percent_bases_above_q30": 85.94,
+        "estimated_depth": 124.37
+    },
+    {
+        "library_id": "S16704",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 537312496,
+        "percent_bases_above_q30": 86.1,
+        "estimated_depth": 94.27
+    },
+    {
+        "library_id": "S16705",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 440691060,
+        "percent_bases_above_q30": 86.65,
+        "estimated_depth": 100.16
+    },
+    {
+        "library_id": "S16706",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 455952196,
+        "percent_bases_above_q30": 83.96,
+        "estimated_depth": 91.19
+    },
+    {
+        "library_id": "S16707",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 523656209,
+        "percent_bases_above_q30": 87.35,
+        "estimated_depth": 104.73
+    },
+    {
+        "library_id": "S16708",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 709031741,
+        "percent_bases_above_q30": 85.78,
+        "estimated_depth": 141.81
+    },
+    {
+        "library_id": "S16709",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 4567642,
+        "percent_bases_above_q30": 85.3,
+        "estimated_depth": 300.5
+    },
+    {
+        "library_id": "S16710",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 273249821,
+        "percent_bases_above_q30": 87.89,
+        "estimated_depth": 62.1
+    },
+    {
+        "library_id": "S16711",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 516433269,
+        "percent_bases_above_q30": 87.0,
+        "estimated_depth": 117.37
+    },
+    {
+        "library_id": "S16712",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 404046749,
+        "percent_bases_above_q30": 86.68,
+        "estimated_depth": 70.89
+    },
+    {
+        "library_id": "S16713",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 4282684,
+        "percent_bases_above_q30": 83.97,
+        "estimated_depth": 446.11
+    },
+    {
+        "library_id": "S16714",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 485115849,
+        "percent_bases_above_q30": 85.78,
+        "estimated_depth": 97.02
+    },
+    {
+        "library_id": "S16715",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 716942391,
+        "percent_bases_above_q30": 85.87,
+        "estimated_depth": 128.03
+    },
+    {
+        "library_id": "S16716",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 704954196,
+        "percent_bases_above_q30": 85.43,
+        "estimated_depth": 140.99
+    },
+    {
+        "library_id": "S16717",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 564434814,
+        "percent_bases_above_q30": 85.73,
+        "estimated_depth": 112.89
+    },
+    {
+        "library_id": "S16718",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 589886961,
+        "percent_bases_above_q30": 85.37,
+        "estimated_depth": 99.98
+    },
+    {
+        "library_id": "S16719",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 664872332,
+        "percent_bases_above_q30": 86.09,
+        "estimated_depth": 132.97
+    },
+    {
+        "library_id": "S16720",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 463584383,
+        "percent_bases_above_q30": 85.31,
+        "estimated_depth": 82.78
+    },
+    {
+        "library_id": "S16721",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 4544015,
+        "percent_bases_above_q30": 85.23,
+        "estimated_depth": 298.95
+    },
+    {
+        "library_id": "S16722",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 448970185,
+        "percent_bases_above_q30": 86.51,
+        "estimated_depth": 80.17
+    },
+    {
+        "library_id": "S16723",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 418414245,
+        "percent_bases_above_q30": 86.15,
+        "estimated_depth": 95.09
+    },
+    {
+        "library_id": "S16724",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 458131450,
+        "percent_bases_above_q30": 84.17,
+        "estimated_depth": 91.63
+    },
+    {
+        "library_id": "S16725",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 426968014,
+        "percent_bases_above_q30": 86.28,
+        "estimated_depth": 83.72
+    },
+    {
+        "library_id": "S16726",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 373171674,
+        "percent_bases_above_q30": 87.39,
+        "estimated_depth": 65.47
+    },
+    {
+        "library_id": "S16727",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 684127324,
+        "percent_bases_above_q30": 87.68,
+        "estimated_depth": 134.14
+    },
+    {
+        "library_id": "S16728",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 438411320,
+        "percent_bases_above_q30": 83.83,
+        "estimated_depth": 87.68
+    },
+    {
+        "library_id": "S16729",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 605233119,
+        "percent_bases_above_q30": 86.06,
+        "estimated_depth": 121.05
+    },
+    {
+        "library_id": "S16730",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 612712708,
+        "percent_bases_above_q30": 86.33,
+        "estimated_depth": 109.41
+    },
+    {
+        "library_id": "S16731",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 336098796,
+        "percent_bases_above_q30": 85.85,
+        "estimated_depth": 60.02
+    },
+    {
+        "library_id": "S16732",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 625017074,
+        "percent_bases_above_q30": 86.06,
+        "estimated_depth": 142.05
+    },
+    {
+        "library_id": "S16733",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 675939926,
+        "percent_bases_above_q30": 86.63,
+        "estimated_depth": 153.62
+    },
+    {
+        "library_id": "S16734",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 485248266,
+        "percent_bases_above_q30": 86.66,
+        "estimated_depth": 82.25
+    },
+    {
+        "library_id": "S16735",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 719970752,
+        "percent_bases_above_q30": 86.35,
+        "estimated_depth": 128.57
+    },
+    {
+        "library_id": "S16736",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 375006021,
+        "percent_bases_above_q30": 85.62,
+        "estimated_depth": 85.23
+    },
+    {
+        "library_id": "S16737",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 647338015,
+        "percent_bases_above_q30": 84.69,
+        "estimated_depth": 129.47
+    },
+    {
+        "library_id": "S16738",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 1989747,
+        "percent_bases_above_q30": 86.5,
+        "estimated_depth": 130.9
+    },
+    {
+        "library_id": "S16739",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 517468097,
+        "percent_bases_above_q30": 86.67,
+        "estimated_depth": 103.49
+    },
+    {
+        "library_id": "S16740",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 3644735,
+        "percent_bases_above_q30": 85.93,
+        "estimated_depth": 379.66
+    },
+    {
+        "library_id": "S16741",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 2147096,
+        "percent_bases_above_q30": 87.04,
+        "estimated_depth": 141.26
+    },
+    {
+        "library_id": "S16742",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 572450390,
+        "percent_bases_above_q30": 86.38,
+        "estimated_depth": 102.22
+    },
+    {
+        "library_id": "S16743",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 693575762,
+        "percent_bases_above_q30": 87.58,
+        "estimated_depth": 123.85
+    },
+    {
+        "library_id": "S16744",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 589384611,
+        "percent_bases_above_q30": 88.23,
+        "estimated_depth": 99.9
+    },
+    {
+        "library_id": "S16745",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 594964957,
+        "percent_bases_above_q30": 86.59,
+        "estimated_depth": 106.24
+    },
+    {
+        "library_id": "S16746",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 314277071,
+        "percent_bases_above_q30": 85.44,
+        "estimated_depth": 61.62
+    },
+    {
+        "library_id": "S16747",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 727174568,
+        "percent_bases_above_q30": 85.22,
+        "estimated_depth": 142.58
+    },
+    {
+        "library_id": "S16748",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 322776029,
+        "percent_bases_above_q30": 85.65,
+        "estimated_depth": 73.36
+    },
+    {
+        "library_id": "S16749",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 637862777,
+        "percent_bases_above_q30": 85.37,
+        "estimated_depth": 144.97
+    },
+    {
+        "library_id": "S16750",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 463438341,
+        "percent_bases_above_q30": 86.86,
+        "estimated_depth": 92.69
+    },
+    {
+        "library_id": "S16751",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 372646122,
+        "percent_bases_above_q30": 86.5,
+        "estimated_depth": 84.69
+    },
+    {
+        "library_id": "S16752",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 4988021,
+        "percent_bases_above_q30": 87.4,
+        "estimated_depth": 519.59
+    },
+    {
+        "library_id": "S16753",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 2427931,
+        "percent_bases_above_q30": 86.62,
+        "estimated_depth": 81.2
+    },
+    {
+        "library_id": "S16754",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 715878056,
+        "percent_bases_above_q30": 84.2,
+        "estimated_depth": 125.59
+    },
+    {
+        "library_id": "S16755",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 428854045,
+        "percent_bases_above_q30": 84.08,
+        "estimated_depth": 75.24
+    },
+    {
+        "library_id": "S16756",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 518078816,
+        "percent_bases_above_q30": 86.53,
+        "estimated_depth": 117.75
+    },
+    {
+        "library_id": "S16757",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 265550229,
+        "percent_bases_above_q30": 86.31,
+        "estimated_depth": 60.35
+    },
+    {
+        "library_id": "S16758",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 3306428,
+        "percent_bases_above_q30": 86.5,
+        "estimated_depth": 110.58
+    },
+    {
+        "library_id": "S16759",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 316136924,
+        "percent_bases_above_q30": 86.7,
+        "estimated_depth": 63.23
+    },
+    {
+        "library_id": "S16760",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 264312117,
+        "percent_bases_above_q30": 86.03,
+        "estimated_depth": 47.2
+    },
+    {
+        "library_id": "S16761",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 623235896,
+        "percent_bases_above_q30": 87.01,
+        "estimated_depth": 124.65
+    },
+    {
+        "library_id": "S16762",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 302618365,
+        "percent_bases_above_q30": 85.78,
+        "estimated_depth": 60.52
+    },
+    {
+        "library_id": "S16763",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 476303177,
+        "percent_bases_above_q30": 84.37,
+        "estimated_depth": 95.26
+    },
+    {
+        "library_id": "S16764",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 292671974,
+        "percent_bases_above_q30": 86.37,
+        "estimated_depth": 52.26
+    },
+    {
+        "library_id": "S16765",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 250435036,
+        "percent_bases_above_q30": 84.82,
+        "estimated_depth": 42.45
+    },
+    {
+        "library_id": "S16766",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 657147650,
+        "percent_bases_above_q30": 85.98,
+        "estimated_depth": 115.29
+    },
+    {
+        "library_id": "S16767",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 462857472,
+        "percent_bases_above_q30": 85.7,
+        "estimated_depth": 92.57
+    },
+    {
+        "library_id": "S16768",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 684091939,
+        "percent_bases_above_q30": 85.26,
+        "estimated_depth": 155.48
+    },
+    {
+        "library_id": "S16769",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 271515841,
+        "percent_bases_above_q30": 87.45,
+        "estimated_depth": 61.71
+    },
+    {
+        "library_id": "S16770",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 584772136,
+        "percent_bases_above_q30": 86.54,
+        "estimated_depth": 99.11
+    },
+    {
+        "library_id": "S16771",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 627370382,
+        "percent_bases_above_q30": 86.51,
+        "estimated_depth": 110.06
+    },
+    {
+        "library_id": "S16772",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 361205624,
+        "percent_bases_above_q30": 84.86,
+        "estimated_depth": 70.82
+    },
+    {
+        "library_id": "S16773",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 1497065,
+        "percent_bases_above_q30": 87.68,
+        "estimated_depth": 98.49
+    },
+    {
+        "library_id": "S16774",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 485723390,
+        "percent_bases_above_q30": 86.36,
+        "estimated_depth": 86.74
+    },
+    {
+        "library_id": "S16775",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 364286991,
+        "percent_bases_above_q30": 87.66,
+        "estimated_depth": 65.05
+    },
+    {
+        "library_id": "S16776",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 263019388,
+        "percent_bases_above_q30": 87.4,
+        "estimated_depth": 46.97
+    },
+    {
+        "library_id": "S16777",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 541667562,
+        "percent_bases_above_q30": 86.99,
+        "estimated_depth": 108.33
+    },
+    {
+        "library_id": "S16778",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 4537761,
+        "percent_bases_above_q30": 85.41,
+        "estimated_depth": 151.76
+    },
+    {
+        "library_id": "S16779",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 550106211,
+        "percent_bases_above_q30": 87.32,
+        "estimated_depth": 110.02
+    },
+    {
+        "library_id": "S16780",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 366328743,
+        "percent_bases_above_q30": 86.9,
+        "estimated_depth": 83.26
+    },
+    {
+        "library_id": "S16781",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 557045735,
+        "percent_bases_above_q30": 86.1,
+        "estimated_depth": 126.6
+    },
+    {
+        "library_id": "S16782",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 330610557,
+        "percent_bases_above_q30": 86.7,
+        "estimated_depth": 64.83
+    },
+    {
+        "library_id": "S16783",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Influenza A virus",
+        "inferred_species_genome_size_mb": 0.0136,
+        "total_bases": 4861446,
+        "percent_bases_above_q30": 85.05,
+        "estimated_depth": 357.46
+    },
+    {
+        "library_id": "S16784",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 269847585,
+        "percent_bases_above_q30": 85.4,
+        "estimated_depth": 61.33
+    },
+    {
+        "library_id": "S16785",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 340401000,
+        "percent_bases_above_q30": 85.64,
+        "estimated_depth": 60.79
+    },
+    {
+        "library_id": "S16786",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 462643962,
+        "percent_bases_above_q30": 86.99,
+        "estimated_depth": 105.15
+    },
+    {
+        "library_id": "S16787",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 420332410,
+        "percent_bases_above_q30": 85.71,
+        "estimated_depth": 82.42
+    },
+    {
+        "library_id": "S16788",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 387187669,
+        "percent_bases_above_q30": 85.19,
+        "estimated_depth": 77.44
+    },
+    {
+        "library_id": "S16789",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 383604838,
+        "percent_bases_above_q30": 85.55,
+        "estimated_depth": 68.5
+    },
+    {
+        "library_id": "S16790",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 262990813,
+        "percent_bases_above_q30": 86.03,
+        "estimated_depth": 59.77
+    },
+    {
+        "library_id": "S16791",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 417181016,
+        "percent_bases_above_q30": 84.82,
+        "estimated_depth": 83.44
+    },
+    {
+        "library_id": "S16792",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 400258796,
+        "percent_bases_above_q30": 85.04,
+        "estimated_depth": 80.05
+    },
+    {
+        "library_id": "S16793",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 512661477,
+        "percent_bases_above_q30": 86.27,
+        "estimated_depth": 116.51
+    },
+    {
+        "library_id": "S16794",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 4433903,
+        "percent_bases_above_q30": 84.8,
+        "estimated_depth": 291.7
+    },
+    {
+        "library_id": "S16795",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 342559660,
+        "percent_bases_above_q30": 85.76,
+        "estimated_depth": 77.85
+    },
+    {
+        "library_id": "S16796",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 423316507,
+        "percent_bases_above_q30": 86.23,
+        "estimated_depth": 96.21
+    },
+    {
+        "library_id": "S16797",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 621855015,
+        "percent_bases_above_q30": 85.24,
+        "estimated_depth": 111.05
+    },
+    {
+        "library_id": "S16798",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 534712342,
+        "percent_bases_above_q30": 84.21,
+        "estimated_depth": 121.53
+    },
+    {
+        "library_id": "S16799",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 588938675,
+        "percent_bases_above_q30": 85.83,
+        "estimated_depth": 117.79
+    },
+    {
+        "library_id": "S16800",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 411140959,
+        "percent_bases_above_q30": 85.61,
+        "estimated_depth": 80.62
+    },
+    {
+        "library_id": "S16801",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 454160874,
+        "percent_bases_above_q30": 85.94,
+        "estimated_depth": 103.22
+    },
+    {
+        "library_id": "S16802",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 1707767,
+        "percent_bases_above_q30": 85.26,
+        "estimated_depth": 112.35
+    },
+    {
+        "library_id": "S16803",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 4838774,
+        "percent_bases_above_q30": 84.35,
+        "estimated_depth": 318.34
+    },
+    {
+        "library_id": "S16804",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 255645287,
+        "percent_bases_above_q30": 84.95,
+        "estimated_depth": 45.65
+    },
+    {
+        "library_id": "S16805",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 673525811,
+        "percent_bases_above_q30": 87.58,
+        "estimated_depth": 114.16
+    },
+    {
+        "library_id": "S16806",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 717549835,
+        "percent_bases_above_q30": 83.1,
+        "estimated_depth": 163.08
+    },
+    {
+        "library_id": "S16807",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 304715788,
+        "percent_bases_above_q30": 84.54,
+        "estimated_depth": 59.75
+    },
+    {
+        "library_id": "S16808",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 394477085,
+        "percent_bases_above_q30": 86.25,
+        "estimated_depth": 89.65
+    },
+    {
+        "library_id": "S16809",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 3898770,
+        "percent_bases_above_q30": 85.43,
+        "estimated_depth": 406.12
+    },
+    {
+        "library_id": "S16810",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 378721614,
+        "percent_bases_above_q30": 87.44,
+        "estimated_depth": 86.07
+    },
+    {
+        "library_id": "S16811",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 4149694,
+        "percent_bases_above_q30": 88.12,
+        "estimated_depth": 138.79
+    },
+    {
+        "library_id": "S16812",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 404908108,
+        "percent_bases_above_q30": 85.63,
+        "estimated_depth": 92.02
+    },
+    {
+        "library_id": "S16813",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 522916309,
+        "percent_bases_above_q30": 86.11,
+        "estimated_depth": 118.84
+    },
+    {
+        "library_id": "S16814",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 647716981,
+        "percent_bases_above_q30": 86.38,
+        "estimated_depth": 129.54
+    },
+    {
+        "library_id": "S16815",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 339240195,
+        "percent_bases_above_q30": 84.91,
+        "estimated_depth": 77.1
+    },
+    {
+        "library_id": "S16816",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 680532131,
+        "percent_bases_above_q30": 86.68,
+        "estimated_depth": 154.67
+    },
+    {
+        "library_id": "S16817",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 3332343,
+        "percent_bases_above_q30": 85.75,
+        "estimated_depth": 347.12
+    },
+    {
+        "library_id": "S16818",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 3320391,
+        "percent_bases_above_q30": 87.0,
+        "estimated_depth": 218.45
+    },
+    {
+        "library_id": "S16819",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 263744871,
+        "percent_bases_above_q30": 87.13,
+        "estimated_depth": 47.1
+    },
+    {
+        "library_id": "S16820",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 268199569,
+        "percent_bases_above_q30": 85.42,
+        "estimated_depth": 60.95
+    },
+    {
+        "library_id": "S16821",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 693030034,
+        "percent_bases_above_q30": 86.08,
+        "estimated_depth": 138.61
+    },
+    {
+        "library_id": "S16822",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 497154673,
+        "percent_bases_above_q30": 86.08,
+        "estimated_depth": 99.43
+    },
+    {
+        "library_id": "S16823",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 433361846,
+        "percent_bases_above_q30": 84.29,
+        "estimated_depth": 98.49
+    },
+    {
+        "library_id": "S16824",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 428828413,
+        "percent_bases_above_q30": 83.57,
+        "estimated_depth": 97.46
+    },
+    {
+        "library_id": "S16825",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 670437325,
+        "percent_bases_above_q30": 85.07,
+        "estimated_depth": 152.37
+    },
+    {
+        "library_id": "S16826",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 301816176,
+        "percent_bases_above_q30": 86.79,
+        "estimated_depth": 68.59
+    },
+    {
+        "library_id": "S16827",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 1823798,
+        "percent_bases_above_q30": 85.05,
+        "estimated_depth": 189.98
+    },
+    {
+        "library_id": "S16828",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 381662539,
+        "percent_bases_above_q30": 86.32,
+        "estimated_depth": 86.74
+    },
+    {
+        "library_id": "S16829",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 488876017,
+        "percent_bases_above_q30": 86.43,
+        "estimated_depth": 85.77
+    },
+    {
+        "library_id": "S16830",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 324720608,
+        "percent_bases_above_q30": 87.53,
+        "estimated_depth": 64.94
+    },
+    {
+        "library_id": "S16831",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 688674800,
+        "percent_bases_above_q30": 87.51,
+        "estimated_depth": 116.72
+    },
+    {
+        "library_id": "S16832",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 683889129,
+        "percent_bases_above_q30": 85.62,
+        "estimated_depth": 122.12
+    },
+    {
+        "library_id": "S16833",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 454875243,
+        "percent_bases_above_q30": 85.6,
+        "estimated_depth": 103.38
+    },
+    {
+        "library_id": "S16834",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 675499788,
+        "percent_bases_above_q30": 85.26,
+        "estimated_depth": 135.1
+    },
+    {
+        "library_id": "S16835",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 4667808,
+        "percent_bases_above_q30": 87.09,
+        "estimated_depth": 486.23
+    },
+    {
+        "library_id": "S16836",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 687837784,
+        "percent_bases_above_q30": 86.01,
+        "estimated_depth": 122.83
+    },
+    {
+        "library_id": "S16837",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 742052049,
+        "percent_bases_above_q30": 85.07,
+        "estimated_depth": 168.65
+    },
+    {
+        "library_id": "S16838",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 716382572,
+        "percent_bases_above_q30": 85.94,
+        "estimated_depth": 121.42
+    },
+    {
+        "library_id": "S16839",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 1295233,
+        "percent_bases_above_q30": 86.18,
+        "estimated_depth": 43.32
+    },
+    {
+        "library_id": "S16840",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 408079845,
+        "percent_bases_above_q30": 87.25,
+        "estimated_depth": 72.87
+    },
+    {
+        "library_id": "S16841",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 4647766,
+        "percent_bases_above_q30": 85.59,
+        "estimated_depth": 484.14
+    },
+    {
+        "library_id": "S16842",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 360328609,
+        "percent_bases_above_q30": 85.23,
+        "estimated_depth": 70.65
+    },
+    {
+        "library_id": "S16843",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 300789963,
+        "percent_bases_above_q30": 85.59,
+        "estimated_depth": 60.16
+    },
+    {
+        "library_id": "S16844",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 639944748,
+        "percent_bases_above_q30": 87.27,
+        "estimated_depth": 108.47
+    },
+    {
+        "library_id": "S16845",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 558257848,
+        "percent_bases_above_q30": 87.9,
+        "estimated_depth": 111.65
+    },
+    {
+        "library_id": "S16846",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 257559600,
+        "percent_bases_above_q30": 86.19,
+        "estimated_depth": 45.99
+    },
+    {
+        "library_id": "S16847",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 440447795,
+        "percent_bases_above_q30": 85.48,
+        "estimated_depth": 77.27
+    },
+    {
+        "library_id": "S16848",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 466327035,
+        "percent_bases_above_q30": 83.93,
+        "estimated_depth": 105.98
+    },
+    {
+        "library_id": "S16849",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 387394960,
+        "percent_bases_above_q30": 84.45,
+        "estimated_depth": 67.96
+    },
+    {
+        "library_id": "S16850",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 501644376,
+        "percent_bases_above_q30": 85.17,
+        "estimated_depth": 89.58
+    },
+    {
+        "library_id": "S16851",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 2347760,
+        "percent_bases_above_q30": 86.53,
+        "estimated_depth": 154.46
+    },
+    {
+        "library_id": "S16852",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 4963332,
+        "percent_bases_above_q30": 86.95,
+        "estimated_depth": 326.54
+    },
+    {
+        "library_id": "S16853",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 745898402,
+        "percent_bases_above_q30": 86.25,
+        "estimated_depth": 133.2
+    },
+    {
+        "library_id": "S16854",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 257111345,
+        "percent_bases_above_q30": 86.73,
+        "estimated_depth": 51.42
+    },
+    {
+        "library_id": "S16855",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 4129520,
+        "percent_bases_above_q30": 86.61,
+        "estimated_depth": 430.16
+    },
+    {
+        "library_id": "S16856",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 3449271,
+        "percent_bases_above_q30": 85.82,
+        "estimated_depth": 226.93
+    },
+    {
+        "library_id": "S16857",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 309520441,
+        "percent_bases_above_q30": 86.51,
+        "estimated_depth": 55.27
+    },
+    {
+        "library_id": "S16858",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 512602904,
+        "percent_bases_above_q30": 86.26,
+        "estimated_depth": 89.93
+    },
+    {
+        "library_id": "S16859",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 584432782,
+        "percent_bases_above_q30": 85.65,
+        "estimated_depth": 132.83
+    },
+    {
+        "library_id": "S16860",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 2770080,
+        "percent_bases_above_q30": 85.21,
+        "estimated_depth": 92.64
+    },
+    {
+        "library_id": "S16861",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 624533443,
+        "percent_bases_above_q30": 85.09,
+        "estimated_depth": 124.91
+    },
+    {
+        "library_id": "S16862",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 681997984,
+        "percent_bases_above_q30": 86.09,
+        "estimated_depth": 155.0
+    },
+    {
+        "library_id": "S16863",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 667971699,
+        "percent_bases_above_q30": 87.31,
+        "estimated_depth": 113.22
+    },
+    {
+        "library_id": "S16864",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 4273294,
+        "percent_bases_above_q30": 86.28,
+        "estimated_depth": 445.13
+    },
+    {
+        "library_id": "S16865",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 535403966,
+        "percent_bases_above_q30": 86.16,
+        "estimated_depth": 90.75
+    },
+    {
+        "library_id": "S16866",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 502528099,
+        "percent_bases_above_q30": 86.41,
+        "estimated_depth": 114.21
+    },
+    {
+        "library_id": "S16867",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 342139464,
+        "percent_bases_above_q30": 85.43,
+        "estimated_depth": 77.76
+    },
+    {
+        "library_id": "S16868",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Hepacivirus C",
+        "inferred_species_genome_size_mb": 0.0096,
+        "total_bases": 2163387,
+        "percent_bases_above_q30": 86.14,
+        "estimated_depth": 225.35
+    },
+    {
+        "library_id": "S16869",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 468775996,
+        "percent_bases_above_q30": 85.68,
+        "estimated_depth": 83.71
+    },
+    {
+        "library_id": "S16870",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 1060988,
+        "percent_bases_above_q30": 85.69,
+        "estimated_depth": 69.8
+    },
+    {
+        "library_id": "S16871",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 740143986,
+        "percent_bases_above_q30": 85.7,
+        "estimated_depth": 168.21
+    },
+    {
+        "library_id": "S16872",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 341674540,
+        "percent_bases_above_q30": 87.09,
+        "estimated_depth": 77.65
+    },
+    {
+        "library_id": "S16873",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 4558698,
+        "percent_bases_above_q30": 86.69,
+        "estimated_depth": 152.46
+    },
+    {
+        "library_id": "S16874",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 599402353,
+        "percent_bases_above_q30": 85.81,
+        "estimated_depth": 101.59
+    },
+    {
+        "library_id": "S16875",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Citrobacter freundii",
+        "inferred_species_genome_size_mb": 5.1,
+        "total_bases": 566437782,
+        "percent_bases_above_q30": 86.34,
+        "estimated_depth": 111.07
+    },
+    {
+        "library_id": "S16876",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 293793246,
+        "percent_bases_above_q30": 85.95,
+        "estimated_depth": 49.8
+    },
+    {
+        "library_id": "S16877",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 678211808,
+        "percent_bases_above_q30": 87.17,
+        "estimated_depth": 154.14
+    },
+    {
+        "library_id": "S16878",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 749142210,
+        "percent_bases_above_q30": 86.42,
+        "estimated_depth": 126.97
+    },
+    {
+        "library_id": "S16879",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 695923414,
+        "percent_bases_above_q30": 86.27,
+        "estimated_depth": 139.18
+    },
+    {
+        "library_id": "S16880",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 2810379,
+        "percent_bases_above_q30": 85.9,
+        "estimated_depth": 184.89
+    },
+    {
+        "library_id": "S16881",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella pneumoniae",
+        "inferred_species_genome_size_mb": 5.7,
+        "total_bases": 420157403,
+        "percent_bases_above_q30": 86.43,
+        "estimated_depth": 73.71
+    },
+    {
+        "library_id": "S16882",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 590353050,
+        "percent_bases_above_q30": 86.9,
+        "estimated_depth": 134.17
+    },
+    {
+        "library_id": "S16883",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 2077375,
+        "percent_bases_above_q30": 87.89,
+        "estimated_depth": 136.67
+    },
+    {
+        "library_id": "S16884",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 2559561,
+        "percent_bases_above_q30": 85.27,
+        "estimated_depth": 85.6
+    },
+    {
+        "library_id": "S16885",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 259669540,
+        "percent_bases_above_q30": 86.32,
+        "estimated_depth": 51.93
+    },
+    {
+        "library_id": "S16886",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 727625161,
+        "percent_bases_above_q30": 84.52,
+        "estimated_depth": 165.37
+    },
+    {
+        "library_id": "S16887",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Enterobacter cloacae",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 451847275,
+        "percent_bases_above_q30": 86.42,
+        "estimated_depth": 90.37
+    },
+    {
+        "library_id": "S16888",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Severe acute respiratory syndrome coronavirus 2",
+        "inferred_species_genome_size_mb": 0.0299,
+        "total_bases": 4632394,
+        "percent_bases_above_q30": 84.61,
+        "estimated_depth": 154.93
+    },
+    {
+        "library_id": "S16889",
+        "project_id": "antimicrobial-resistance",
+        "inferred_species_name": "Klebsiella oxytoca",
+        "inferred_species_genome_size_mb": 5.9,
+        "total_bases": 438874866,
+        "percent_bases_above_q30": 87.44,
+        "estimated_depth": 74.39
+    },
+    {
+        "library_id": "S16890",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Escherichia coli",
+        "inferred_species_genome_size_mb": 5.6,
+        "total_bases": 339604405,
+        "percent_bases_above_q30": 88.92,
+        "estimated_depth": 60.64
+    },
+    {
+        "library_id": "S16891",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 354055224,
+        "percent_bases_above_q30": 85.76,
+        "estimated_depth": 70.81
+    },
+    {
+        "library_id": "S16892",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 486840231,
+        "percent_bases_above_q30": 85.69,
+        "estimated_depth": 110.65
+    },
+    {
+        "library_id": "S16893",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 2802932,
+        "percent_bases_above_q30": 86.42,
+        "estimated_depth": 184.4
+    },
+    {
+        "library_id": "S16894",
+        "project_id": "mtuberculosis",
+        "inferred_species_name": "Mycobacterium tuberculosis",
+        "inferred_species_genome_size_mb": 4.4,
+        "total_bases": 558815271,
+        "percent_bases_above_q30": 86.35,
+        "estimated_depth": 127.0
+    },
+    {
+        "library_id": "S16895",
+        "project_id": "viral-genomics",
+        "inferred_species_name": "Respiratory syncytial virus",
+        "inferred_species_genome_size_mb": 0.0152,
+        "total_bases": 1572255,
+        "percent_bases_above_q30": 85.5,
+        "estimated_depth": 103.44
+    },
+    {
+        "library_id": "S16896",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 620704830,
+        "percent_bases_above_q30": 86.14,
+        "estimated_depth": 124.14
+    },
+    {
+        "library_id": "S16897",
+        "project_id": "enterics-surveillance",
+        "inferred_species_name": "Salmonella enterica",
+        "inferred_species_genome_size_mb": 5.0,
+        "total_bases": 355692348,
+        "percent_bases_above_q30": 84.7,
+        "estimated_depth": 71.14
+    }
+]
