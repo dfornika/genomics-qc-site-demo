@@ -1,4 +1,4 @@
-(ns ^:figwheel-hooks genomics-qc.core
+(ns genomics-qc.core
   (:require-macros [cljs.core.async.macros :refer [go]])
   (:require [reagent.core :as r]
             [reagent.dom :as rdom]
@@ -137,7 +137,7 @@
   (rdom/render [app] (js/document.getElementById "app")))
 
 
-(defn ^:after-load re-render
+(defn ^:dev/after-load re-render
   "Re-render the site when the source code is updated."
   []
   ;; The `:dev/after-load` metadata causes this function to be called
@@ -153,4 +153,7 @@
   (render))
 
 
-(set! (.-onload js/window) main)
+(defn init
+  "Initialize the application."
+  []
+  (set! (.-onload js/window) main))
