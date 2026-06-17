@@ -10,3 +10,7 @@
    (server/start!)
    (shadow/watch build-id)
    (shadow/nrepl-select build-id)))
+
+(comment 
+  (cljs-repl)
+  ,)

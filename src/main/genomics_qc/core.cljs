@@ -5,8 +5,7 @@
             [ag-grid-community :refer [ModuleRegistry AllCommunityModule]]
             [ag-grid-react :refer [AgGridReact AgGridColumn]]
             [cljs-http.client :as http]
-            [cljs.core.async :refer [<!]]
-            [ag-grid-react :as ag-grid]))
+            [cljs.core.async :refer [<!]]))
 
 (defonce db (r/atom {}))
 
