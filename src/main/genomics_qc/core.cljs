@@ -3,6 +3,7 @@
   (:require [reagent.core :as r]
             [reagent.dom.client :as rdomc]
             [ag-grid-community :refer [ModuleRegistry AllCommunityModule]]
+            [ag-grid-react :refer [AgGridReact AgGridColumn]]
             [cljs-http.client :as http]
             [cljs.core.async :refer [<!]]
             [ag-grid-react :as ag-grid]))
@@ -65,6 +66,10 @@
    [:div {:style {:display "grid" :align-self "center" :justify-self "end"}}
     [:img {:src "images/logo.svg" :height "48px"}]]])
 
+(def ag-grid-react (r/adapt-react-class AgGridReact))
+
+(def ag-grid-column (r/adapt-react-class AgGridColumn))
+
 
 (defn sequencing-runs-table
   "Sequencing runs table component."
@@ -73,14 +78,22 @@
         row-data sequencing-runs]
     [:div {:class "ag-theme-balham"
            :style {}}
-     [:> ag-grid/AgGridReact
+     [ag-grid-react
       {:rowData row-data
        :pagination false
-       :rowSelection "single"
+       :rowSelection {:mode "singleRow"}
        :enableCellTextSelection true
        :onFirstDataRendered #(-> % .-api .sizeColumnsToFit)
        :onSelectionChanged sequencing-run-selected}
-      [:> ag-grid/AgGridColumn {:field "sequencing_run_id" :headerName "Sequencing Run ID" :minWidth 200 :resizable true :filter "agTextColumnFilter" :sortable true :checkboxSelection true :sort "desc" :floatingFilter true} ]]]))
+      [ag-grid-column {:field "sequencing_run_id" 
+                       :headerName "Sequencing Run ID" 
+                       :minWidth 200 
+                       :resizable true 
+                       :filter "agTextColumnFilter" 
+                       :sortable true 
+                       :checkboxSelection true 
+                       :sort "desc" 
+                       :floatingFilter true} ]]]))
 
 
 (defn library-sequence-qc-table
@@ -94,19 +107,19 @@
                       (map (fn [x] (update x :percent_bases_above_q30 #(when % (.toFixed % 2))))))]
     [:div {:class "ag-theme-balham"
            :style {}}
-     [:> ag-grid/AgGridReact
+     [ag-grid-react
       {:rowData row-data
        :pagination false
        :enableCellTextSelection true
        :onFirstDataRendered #(-> % .-api .sizeColumnsToFit)
        :onSelectionChanged #()}
-      [:> ag-grid/AgGridColumn {:field "library_id" :headerName "Library ID" :maxWidth 200 :sortable true :resizable true :filter "agTextColumnFilter" :pinned "left" :checkboxSelection false :headerCheckboxSelectionFilteredOnly true :floatingFilter true}]
-      [:> ag-grid/AgGridColumn {:field "project_id" :headerName "Project ID" :maxWidth 200 :sortable true :resizable true :filter "agTextColumnFilter" :floatingFilter true}]
-      [:> ag-grid/AgGridColumn {:field "inferred_species_name" :headerName "Inferred Species" :maxWidth 200 :sortable true :resizable true :filter "agTextColumnFilter" :floatingFilter true}]
-      [:> ag-grid/AgGridColumn {:field "inferred_species_genome_size_mb" :maxWidth 140 :headerName "Genome Size (Mb)" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]
-      [:> ag-grid/AgGridColumn {:field "total_bases" :maxWidth 140 :headerName "Total Bases (Mb)" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]
-      [:> ag-grid/AgGridColumn {:field "percent_bases_above_q30" :maxWidth 160 :headerName "Bases Above Q30 (%)" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]
-      [:> ag-grid/AgGridColumn {:field "estimated_depth" :maxWidth 172 :headerName "Est. Depth Coverage" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]]]))
+      [ag-grid-column {:field "library_id" :headerName "Library ID" :maxWidth 200 :sortable true :resizable true :filter "agTextColumnFilter" :pinned "left" :checkboxSelection false :headerCheckboxSelectionFilteredOnly true :floatingFilter true}]
+      [ag-grid-column {:field "project_id" :headerName "Project ID" :maxWidth 200 :sortable true :resizable true :filter "agTextColumnFilter" :floatingFilter true}]
+      [ag-grid-column {:field "inferred_species_name" :headerName "Inferred Species" :maxWidth 200 :sortable true :resizable true :filter "agTextColumnFilter" :floatingFilter true}]
+      [ag-grid-column {:field "inferred_species_genome_size_mb" :maxWidth 140 :headerName "Genome Size (Mb)" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]
+      [ag-grid-column {:field "total_bases" :maxWidth 140 :headerName "Total Bases (Mb)" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]
+      [ag-grid-column {:field "percent_bases_above_q30" :maxWidth 160 :headerName "Bases Above Q30 (%)" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]
+      [ag-grid-column {:field "estimated_depth" :maxWidth 172 :headerName "Est. Depth Coverage" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]]]))
 
 (defn app
   "Complete app component. Consists of a header and two tables."
