@@ -6,4 +6,6 @@
                          :exclusions [cljsjs/react cljsjs/react-dom]}}
  :aliases {:dev {:extra-paths ["src/dev"]
                  :extra-deps {thheller/shadow-cljs {:mvn/version "3.4.11"}
-                              binaryage/devtools {:mvn/version "1.0.7"}}}}}
+                              binaryage/devtools {:mvn/version "1.0.7"}}}
+           :test {:extra-deps {org.clojure/test.check {:mvn/version "1.1.1"}}
+                  :extra-paths ["src/test"]}}}

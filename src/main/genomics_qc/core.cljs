@@ -3,7 +3,7 @@
   (:require [reagent.core :as r]
             [reagent.dom.client :as rdomc]
             [ag-grid-community :refer [ModuleRegistry AllCommunityModule]]
-            [ag-grid-react :refer [AgGridReact AgGridColumn]]
+            [ag-grid-react :refer [AgGridReact]]
             [cljs-http.client :as http]
             [cljs.core.async :refer [<!]]))
 
@@ -44,11 +44,12 @@
    to pull the library-qc data from the server, and update the 
    :selected-sequencing-run-id in the db"
   [e]
-  (let [selected-rows (get-selected-rows e)
-        selected-row (first selected-rows)
-        currently-selected-run-id (:sequencing_run_id selected-row)]
+  (when (not= "rowDataChanged" (.-source e))
+    (let [selected-rows (get-selected-rows e)
+          selected-row (first selected-rows)
+          currently-selected-run-id (:sequencing_run_id selected-row)]
       (load-library-qc currently-selected-run-id)
-      (swap! db assoc-in [:selected-sequencing-run-id] currently-selected-run-id)))
+      (swap! db assoc-in [:selected-sequencing-run-id] currently-selected-run-id))))
 
 
 (defn header
@@ -65,35 +66,79 @@
    [:div {:style {:display "grid" :align-self "center" :justify-self "end"}}
     [:img {:src "images/logo.svg" :height "48px"}]]])
 
+;; AG-Grid Components
 (def ag-grid-react (r/adapt-react-class AgGridReact))
 
-(def ag-grid-column (r/adapt-react-class AgGridColumn))
-
+(def sequencing-runs-table-column-defs 
+  [{:field "sequencing_run_id"
+    :headerName "Sequencing Run ID"
+    :minWidth 200
+    :resizable true
+    :filter "agTextColumnFilter"
+    :sortable true
+    :sort "desc"
+    :floatingFilter true}])
 
 (defn sequencing-runs-table
   "Sequencing runs table component."
   []
   (let [sequencing-runs (:sequencing-runs @db)
+        column-defs sequencing-runs-table-column-defs
         row-data sequencing-runs]
     [:div {:class "ag-theme-balham"
            :style {}}
      [ag-grid-react
-      {:rowData row-data
+      {:columnDefs column-defs
+       :rowData row-data
+       :getRowId (fn [params]
+                   (let [^js data (.-data params)]
+                     (.-sequencing_run_id data)))
+       :theme "legacy"
        :pagination false
-       :rowSelection {:mode "singleRow"}
+       :rowSelection {:mode "singleRow"
+                      :checkboxes true}
        :enableCellTextSelection true
        :onFirstDataRendered #(-> % .-api .sizeColumnsToFit)
-       :onSelectionChanged sequencing-run-selected}
-      [ag-grid-column {:field "sequencing_run_id" 
-                       :headerName "Sequencing Run ID" 
-                       :minWidth 200 
-                       :resizable true 
-                       :filter "agTextColumnFilter" 
-                       :sortable true 
-                       :checkboxSelection true 
-                       :sort "desc" 
-                       :floatingFilter true} ]]]))
+       :onSelectionChanged sequencing-run-selected
+        }]]))
 
+(def library-sequence-qc-column-defs
+  [{:field "library_id" 
+    :headerName "Library ID" 
+    :filter "agTextColumnFilter" 
+    :pinned "left"}
+   
+   {:field "project_id" 
+    :headerName "Project ID" 
+    :filter "agTextColumnFilter"}
+   
+   {:field "inferred_species_name" 
+    :headerName "Inferred Species" 
+    :filter "agTextColumnFilter"}
+   
+   {:field "inferred_species_genome_size_mb"
+    :headerName "Genome Size (Mb)"
+    :maxWidth 140 
+    :filter "agNumberColumnFilter" 
+    :type "numericColumn"}
+   
+   {:field "total_bases" 
+    :headerName "Total Bases (Mb)" 
+    :maxWidth 140
+    :filter "agNumberColumnFilter" 
+    :type "numericColumn"}
+   
+   {:field "percent_bases_above_q30"
+   :headerName "Bases Above Q30 (%)"  
+    :maxWidth 160 
+    :filter "agNumberColumnFilter" 
+    :type "numericColumn"}
+   
+   {:field "estimated_depth" 
+    :headerName "Est. Depth Coverage" 
+    :maxWidth 172 
+    :filter "agNumberColumnFilter" 
+    :type "numericColumn" }])
 
 (defn library-sequence-qc-table
   "Library sequence QC table component."
@@ -107,18 +152,22 @@
     [:div {:class "ag-theme-balham"
            :style {}}
      [ag-grid-react
-      {:rowData row-data
+      {:defaultColDef {:sortable  true
+                       :resizable true
+                       :floatingFilter true
+                       :minWidth  80
+                       :maxWidth 200}
+       :columnDefs library-sequence-qc-column-defs
+       :rowData row-data
+       :getRowId (fn [params]
+                   (let [^js data (.-data params)]
+                     (.-library_id data)))
        :pagination false
+       :theme      "legacy"
        :enableCellTextSelection true
        :onFirstDataRendered #(-> % .-api .sizeColumnsToFit)
        :onSelectionChanged #()}
-      [ag-grid-column {:field "library_id" :headerName "Library ID" :maxWidth 200 :sortable true :resizable true :filter "agTextColumnFilter" :pinned "left" :checkboxSelection false :headerCheckboxSelectionFilteredOnly true :floatingFilter true}]
-      [ag-grid-column {:field "project_id" :headerName "Project ID" :maxWidth 200 :sortable true :resizable true :filter "agTextColumnFilter" :floatingFilter true}]
-      [ag-grid-column {:field "inferred_species_name" :headerName "Inferred Species" :maxWidth 200 :sortable true :resizable true :filter "agTextColumnFilter" :floatingFilter true}]
-      [ag-grid-column {:field "inferred_species_genome_size_mb" :maxWidth 140 :headerName "Genome Size (Mb)" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]
-      [ag-grid-column {:field "total_bases" :maxWidth 140 :headerName "Total Bases (Mb)" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]
-      [ag-grid-column {:field "percent_bases_above_q30" :maxWidth 160 :headerName "Bases Above Q30 (%)" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]
-      [ag-grid-column {:field "estimated_depth" :maxWidth 172 :headerName "Est. Depth Coverage" :sortable true :resizable true :filter "agNumberColumnFilter" :type "numericColumn" :floatingFilter true}]]]))
+      ]]))
 
 (defn app
   "Complete app component. Consists of a header and two tables."
@@ -147,7 +196,8 @@
 ;;
 
 (defonce root
-  (rdomc/create-root (.getElementById js/document "app")))
+  (when (exists? js/document)
+    (rdomc/create-root (.getElementById js/document "app"))))
 
 (defn render
   "Render the app into the root app div."
@@ -161,7 +211,7 @@
   []
   (render))
 
-(defn ^:export init!
+(defn ^:export init
   "Exported entry point called by shadow-cljs on page load."
   []
   (.registerModules ModuleRegistry #js [AllCommunityModule])

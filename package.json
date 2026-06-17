@@ -1,7 +1,7 @@
 {
   "name": "genomics-qc-site-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A demo Genomics QC site, built with ClojureScript + AG-Grid",
   "main": "main.js",
   "scripts": {
     "postinstall": "cp node_modules/ag-grid-community/styles/ag-grid.css resources/public/css/ag-grid.css && cp node_modules/ag-grid-community/styles/ag-theme-balham.css resources/public/css/ag-theme-balham.css",
