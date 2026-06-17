@@ -9,28 +9,28 @@ jobs:
   site:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - name: Prepare java
-      uses: actions/setup-java@v4
+      uses: actions/setup-java@v5
       with:
         distribution: 'temurin'
         java-version: '21'
     - name: Install clojure tools
-      uses: DeLaGuardo/setup-clojure@12.5
+      uses: DeLaGuardo/setup-clojure@13.6.1
       with:
           cli: latest
     - name: Setup npm
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
         node-version: 'lts/*'
-    - name: Install npm dependencies 
+    - name: Install npm dependencies
       run: |
         npm install
     - name: Build site
       run: |
         ./scripts/build.sh
         ./scripts/create-deployment.sh
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v7
       with:
         name: site
         path: build/genomics-qc.zip
