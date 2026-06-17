@@ -1,4 +1,4 @@
-FROM clojure:temurin-21-tools-deps-1.11.1.1429-jammy
+FROM clojure:temurin-25-tools-deps-trixie-slim
 # Ubuntu: Ubuntu 22.04 LTS (Jammy Jellyfish)
 # JDK: eclipse-temurin 21
 # Clojure: tools-deps, 1.11.1.1429

@@ -1,7 +1,8 @@
 (ns genomics-qc.core
   (:require-macros [cljs.core.async.macros :refer [go]])
   (:require [reagent.core :as r]
-            [reagent.dom :as rdom]
+            [reagent.dom.client :as rdomc]
+            [ag-grid-community :refer [ModuleRegistry AllCommunityModule]]
             [cljs-http.client :as http]
             [cljs.core.async :refer [<!]]
             [ag-grid-react :as ag-grid]))
@@ -131,29 +132,26 @@
      [library-sequence-qc-table]]]])
 
 
-(defn render
-  "Render the app component inside the 'app' div."
-  []
-  (rdom/render [app] (js/document.getElementById "app")))
+;;
 
+(defonce root
+  (rdomc/create-root (.getElementById js/document "app")))
+
+(defn render
+  "Render the app into the root app div."
+  []
+  (rdomc/render root [app]))
 
 (defn ^:dev/after-load re-render
-  "Re-render the site when the source code is updated."
+  "Hot-reload hook called by shadow-cljs after code changes.
+  Re-renders from root so that new component definitions take effect.
+  State is preserved because it lives in `defonce` app state db atom."
   []
-  ;; The `:dev/after-load` metadata causes this function to be called
-  ;; after shadow-cljs hot-reloads code.
-  ;; This function is called implicitly by its annotation.
   (render))
 
-
-(defn main
-  "Main entrypoint."
+(defn ^:export init!
+  "Exported entry point called by shadow-cljs on page load."
   []
+  (.registerModules ModuleRegistry #js [AllCommunityModule])
   (load-sequencing-runs)
   (render))
-
-
-(defn init
-  "Initialize the application."
-  []
-  (set! (.-onload js/window) main))
