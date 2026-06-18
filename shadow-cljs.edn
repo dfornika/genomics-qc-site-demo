@@ -9,6 +9,6 @@
                 :asset-path "/js"
                 :modules {:main
                           {:init-fn genomics-qc.core/init}}
-                :devtools {:devtools-url #shadow/env "SHADOW_DEVTOOLS_URL"}
+                :devtools {:devtools-url "DEVTOOLS_URL_PLACEHOLDER"}
                 :build-hooks [(shadow.cljs.build-report/hook {:output-to "build-reports/report.html"})]
                 :release {:compiler-options {:optimizations :simple}}}}}
