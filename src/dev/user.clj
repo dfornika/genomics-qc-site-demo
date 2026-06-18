@@ -17,3 +17,6 @@
   @genomics-qc.core/db
   ,)
 
+(comment
+  (def p (p/open {:launcher :vs-code}))
+  ,)
