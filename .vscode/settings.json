@@ -1,0 +1,20 @@
+{
+  "calva.paredit.defaultKeyMap": "none",
+  "calva.replConnectSequences": [
+    {
+      "name": "Preconfigured REPL Connect",
+      "projectType": "deps.edn",
+      "autoSelectForJackIn": true,
+      "cljsType": "shadow-cljs",
+      "menuSelections": {
+        "cljsLaunchBuilds": [
+          ":app"
+        ],
+        "cljAliases": [
+          ":dev"
+        ],
+        "cljsDefaultBuild": ":app"
+      }
+    }
+  ]
+}
