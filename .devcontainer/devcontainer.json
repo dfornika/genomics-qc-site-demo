@@ -1,39 +1,46 @@
 {
-  "name": "ClojureScript devcontainer",
+  "name": "Genomics QC Site Demo (cljs edition)",
   "build": {
     "dockerfile": "Dockerfile.dev"
   },
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   // More info: https://containers.dev/features.
-  "features": {},
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [ ],
+  "forwardPorts": [
+    8000,
+    9630
+  ],
+  "portsAttributes": {
+    "8000": {
+      "label": "Web app",
+      "onAutoForward": "openBrowser"
+    },
+    "9630": {
+      "label": "shadow-cljs (dev tools / hot reload)",
+      "onAutoForward": "silent"
+    }
+  },
   // Run commands on cluster first start. Useful for download dependencies, etc.
-  "postCreateCommand": "clojure -P && npm i",
+  "postCreateCommand": "./scripts/post-create.sh",
   // Copy host env vars into the devcontainer.  You can also refer to some_file.env files in your docker or docker-compose setup.
-  "postStartCommand": "",
   "remoteEnv": {},
   "customizations": {
     "vscode": {
       "extensions": [
-        "betterthantomorrow.calva",
-        "djblue.portal"
+        "betterthantomorrow.calva"
       ],
       "settings": {
-        "calva.replConnectSequences": [
-          {
-            "name": "ClojureScript devcontainer",
-            "projectType": "deps.edn",
-            "nReplPortFile": [
-              ".nrepl-port"
-            ],
-            "menuSelections": {
-              "cljAliases": [
-                "dev"
-              ]
-            }
-          }
-        ]
+        "security.workspace.trust.banner": "never",
+        "security.workspace.trust.emptyWindow": true,
+        "security.workspace.trust.enabled": false,
+        // Turn off Calva's structural editing (paredit) keyboard shortcuts,
+        // so typing works like any other editor. Also in .vscode/settings.json.
+        "calva.paredit.defaultKeyMap": "none"
       }
     }
   }
